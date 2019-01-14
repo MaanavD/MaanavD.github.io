@@ -4,11 +4,11 @@
       "value": 10,
       "density": {
         "enable": true,
-        "value_area": 1262.6362266116362
+        "value_area": 800
       }
     },
     "color": {
-      "value": ["#000000","#FF0000"]
+      "value": ["#00D1B2","#209CEE", "#FFDD57", "#23D160", "#FF3860"]
     },
     "shape": {
       "type": "circle",
