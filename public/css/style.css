@@ -1,3 +1,8 @@
+/* HTML */
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* Navbar */
 .navBg{
     background-color:hsl(171, 100%, 41%)!important;
@@ -10,24 +15,14 @@ section.heroTop{
     max-width: 400px;
     justify-content: center;
 }
-#particles-js{
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    /* background-image: url('https://cdn.lifehack.org/wp-content/uploads/2013/04/75.jpg'); */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-  }
-  #particles-js2{   
-      width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    background-image: url('');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-  }
+.arrowMargin{
+    margin-bottom: -15%;
+}
+
+  #particles-js{   
+    height: 100vh;
+    z-index: -1;
+    margin-bottom:-100vh;
 /* @media only screen and (max-width: 768px) {
     .smallInvis {
       display: none;
