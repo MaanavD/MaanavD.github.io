@@ -1,8 +1,20 @@
+/* Navbar */
+.navBg{
+    background-color:hsl(171, 100%, 41%)!important;
+}
+section.heroTop{
+    background-image: url('https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center center;
+}
+.hero-image{
+    max-width: 400px;
+    justify-content: center;
+}
 #particles-js{
     width: 100%;
     height: 100%;
     background-color: #ffffff;
-    background-image: url('');
+    /* background-image: url('https://cdn.lifehack.org/wp-content/uploads/2013/04/75.jpg'); */
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -16,30 +28,8 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }
-.landingImg{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.landingImgDiv{
-    width: 40vh;
-}
- h1{
-     font-size: 3.5vw;
- }
-
-.landing{
-    position: absolute;
-	top: 50%;
-	right: 50%;
-	transform: translate(50%,-50%);
-	color: text;
-	max-width: 90%;
-	padding: 2em 3em;
-}
-
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .smallInvis {
       display: none;
     }
-  }
+  } */
