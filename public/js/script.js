@@ -2,7 +2,6 @@
 particlesJS.load('particles-js', 'particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
-
 /* Bulma load navburger */
 $(document).ready(function() {
 
@@ -16,3 +15,35 @@ $(document).ready(function() {
   });
 });
 
+/* Loading for Animate.css animations*/
+$(document).ready(function() {
+  // Check if element is scrolled into view
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
+  // If element is scrolled into view, fade it in
+  $(window).scroll(function() {
+    $('.scroll-animations .animated').each(function() {
+      if (isScrolledIntoView(this) === true) {
+        $(this).removeClass('hidden')
+        $(this).addClass('slideInUp');
+
+      }
+    });
+  });
+}); 
+
+/* Preloader */
+setTimeout(function(){ 
+  document.getElementById('preloader').style['display'] = 'none';
+  document.getElementById('loader').style['display'] = 'none';
+}, 2000);
+
+
+/* Scrollspy */

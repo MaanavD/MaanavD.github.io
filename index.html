@@ -17,21 +17,24 @@
   <link rel="mask-icon" href="public/images/favicons/safari-pinned-tab.svg?" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <title>Maanav Dalal</title>
+  <title>Maanav Dalal | Developer, Leader, Designer</title>
 
 </head>
 
 <body>
-  <!-- Hero --> <div id="particles-js"></div>
-  <section class="hero heroTop is-primary is-fullheight" >
-   
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <!-- Hero -->
+  <div id="particles-js"></div>
+  <section class="hero heroTop is-primary is-fullheight">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <header class="navbar navBg is-fixed-top">
         <div class="container">
-          <div class="navbar-brand" >
-            <a class="navbar-item" href="#section-hero" >
-              <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="#section-hero">
+              <img src="public/images/FinalLogo3.png" alt="Logo">
             </a>
             <span class="navbar-burger burger" data-target="navbarMenuHeroC">
               <span></span>
@@ -39,9 +42,9 @@
               <span></span>
             </span>
           </div>
-          <div id="navbarMenuHeroC" class="navbar-menu" >
+          <div id="navbarMenuHeroC" class="navbar-menu">
             <div class="navbar-start">
-              <a class="navbar-item is-active" href="#section-intro">
+              <a class="navbar-item " href="#section-intro">
                 Introduction
               </a>
               <a class="navbar-item" href="#section-projects">
@@ -55,9 +58,9 @@
               </a>
             </div>
             <div class="navbar-end field is-grouped">
-                <a target="_blank" class="navbar-item" href="https://drive.google.com/file/d/1kupGXjrs3BcCRKs8wIBZ7U0-JURtl0Yz/view?usp=sharing">
-                    <i class="fas fa-pencil-alt fa-fw fa-pull-left"></i>Résumé
-                  </a>
+              <a target="_blank" class="navbar-item" href="https://drive.google.com/file/d/1kupGXjrs3BcCRKs8wIBZ7U0-JURtl0Yz/view?usp=sharing">
+                <i class="fas fa-pencil-alt fa-fw fa-pull-left"></i>Résumé
+              </a>
               <a target="_blank" class="navbar-item" href="https://github.com/MaanavD">
                 <i class="fab fa-github fa-fw"></i>
               </a>
@@ -69,74 +72,69 @@
         </div>
       </header>
     </div>
-
     <!-- Hero content: will be in the middle -->
     <div class="hero-body" id="section-hero">
       <div class="container has-text-centered section">
-        <figure class="image is-inline-block">
+        <figure class="image is-inline-block animated delay-2s jackInTheBox">
           <img class="image hero-image" src="public/images/FinalLogo.png" alt="">
         </figure>
         <h1 class="title has-text-black">
-          I'm Maanav Dalal.
+          Hi, I'm Maanav.
         </h1>
         <h2 class="subtitle has-text-grey">
           Nice to meet you!
         </h2>
         <a href="#section-intro">
-          <i class="fas fa-long-arrow-alt-down fa-5x has-text-primary arrowMargin animated infinite bounce delay-5s"></i>
+          <i class="fas fa-caret-down fa-5x has-text-primary arrowMargin animated infinite flash slower delay-5s"></i>
         </a>
       </div>
     </div>
   </section>
-</div>
   <!-- Introduction -->
-  <!-- TODO: Animate logo intro -->
-  <div class="section" id="section-intro">
-    <div class="container">
-      <h1 class="title is-size-3">Introduction</h1>
-      <h2 class="subtitle has-text-grey is-size-4">My short spiel.</h2>
-      <div class="">
-        <p class="is-size-5">I'm currently a University Student at McMaster University studying Engineering, and hoping
-          to pursue software
-          engineering.</p>
-        <div class="is-hidden-desktop"><br></div>
-        <p class="is-size-5"> In my free time, I enjoy programming, creating UX/UI mockups, playing video games, and
-          hanging out with my friends.</p>
+    <div class="section" id="section-intro">
+      <div class="container">
+        <h1 class="title is-size-3">Introduction</h1>
+        <h2 class="subtitle has-text-grey is-size-4">My short spiel.</h2>
+        <div class="">
+          <p class="is-size-5">I'm currently a University Student at McMaster University studying Engineering, and
+            hoping
+            to pursue Software Engineering.</p>
+          <div class="is-hidden-desktop"><br></div>
+          <p class="is-size-5"> In my free time, I enjoy programming, creating UX/UI mockups, playing video games, and
+            hanging out with my friends.</p>
+        </div>
       </div>
     </div>
 
-  </div>
   <!-- Projects -->
-  <!-- TODO: Animate card intros -->
-  <div class="section" id="section-projects">
-    <div class="container">
-      <h1 class="title is-large">Projects</h1>
-      <h2 class="subtitle has-text-grey">What I've built over the years.</h2>
-      <div class="columns">
-        <div data-include="public/html_extra/projectCards.html"></div>
+    <div class="section" id="section-projects">
+      <div class="container">
+        <h1 class="title is-size-3">Projects</h1>
+        <h2 class="subtitle has-text-grey is-size-4">My Favourite creations over the years. See more on <a target="_blank"
+            href="https://github.com/MaanavD">github</a>.</h2>
+        <div class="columns scroll-animations" data-aos="flip-left">
+          <div data-include="public/html_extra/projectCards.html"></div>
+        </div>
       </div>
     </div>
-  </div>
+
 
   <!-- Skills -->
-  <!-- TODO: Animate message intros -->
   <div class="section" id="section-skills">
     <div class="container">
-      <h1 class="title is-large">Skills</h1>
-      <h2 class="subtitle has-text-grey">My personal skillset.</h2>
-      <div class="columns">
+      <h1 class="title is-size-3">Skills</h1>
+      <h2 class="subtitle has-text-grey is-size-4">My personal skillset.</h2>
+      <div class="columns scroll-animations">
         <div data-include="public/html_extra/skillCards.html"></div>
       </div>
     </div>
   </div>
 
   <!-- Awards -->
-  <!-- TODO: Section formatting to match intro -->
   <div class="section" id="section-awards">
-    <div class="container">
-      <h1 class="title is-large">Awards</h1>
-      <h2 class="subtitle has-text-grey">The awards I have brought home.</h2>
-
+    <div class="container scroll-animations ">
+      <h1 class="title is-size-3">Achievements & Awards</h1>
+      <h2 class="subtitle has-text-grey is-size-4">The awards I have brought home, and the achievements I'm proud of.</h2>
       <div data-include="public/html_extra/awardCards.html"></div>
     </div>
   </div>
@@ -147,12 +145,14 @@
         <div class="level">
           <div class="level-left">
             <h1>
-              Assembled using bulma, particles.js, and csi.js.
+              Assembled using bulma, animate.css, particles.js, and csi.js.
             </h1>
           </div>
           <div class="level-right">
             <h1>
-              Contact me for any programming, UX/UI, or general inquiries!
+              I'm interested in discussing programming, UX/UI, or job opportunities.
+              <br>
+              Say hi at <a class="has-text-link" href="mailto:maanavdalal@gmail.com?Subject=Let's%20Talk" target="_top">MaanavDalal@gmail.com</a>!
             </h1>
           </div>
         </div>
