@@ -46,9 +46,7 @@ setTimeout(function(){
 }, 2000);
 
 
-/* Scrollspy */
-<!-- Start of Async Drift Code -->
-
+/* Drift */
 "use strict";
 
 !function() {
@@ -74,4 +72,4 @@ setTimeout(function(){
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('ep9593unsp92');
 
-<!-- End of Async Drift Code -->
+/* Scrollspy TODO:*/
