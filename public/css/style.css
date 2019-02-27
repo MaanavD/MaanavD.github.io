@@ -14,6 +14,11 @@ section.heroTop{
 .hero-image{
     max-width: 400px;
     justify-content: center;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 .arrowMargin{
     margin-bottom: -10%;
