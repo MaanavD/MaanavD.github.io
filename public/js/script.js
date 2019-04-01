@@ -40,11 +40,14 @@ $(document).ready(function() {
 }); 
 
 /* Preloader */
-setTimeout(function(){ 
-  document.getElementById('preloader').style['display'] = 'none';
-  document.getElementById('loader').style['display'] = 'none';
-}, 2000);
 
+
+$(document).ready(function() {
+  setTimeout(function(){ 
+    document.getElementById('preloader').style['display'] = 'none';
+    document.getElementById('loader').style['display'] = 'none';
+  }, 2000);
+});
 
 /* Drift */
 "use strict";
