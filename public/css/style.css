@@ -30,15 +30,19 @@ section.heroTop{
     height: 100vh;
     z-index: -1;
     margin-bottom:-100vh;}
-/* @media only screen and (max-width: 768px) {
-    .smallInvis {
-      display: none;
-    }
-  } */
 
 /* Animations */
 .hidden{
     visibility: hidden;
+}
+
+.card:hover{
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: scale(1.02);
+}
+article:hover{
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: scale(1.02);
 }
 
 /* Preloader */
