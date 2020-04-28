@@ -10,7 +10,7 @@ html {
     background-color:hsl(171, 100%, 41%)!important;
 }
 section.heroTop{
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background.webp);
     background-position: center center;
 }
 .hero-image{
