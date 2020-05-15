@@ -2,6 +2,16 @@
 html {
     scroll-behavior: smooth;
   }
+
+::selection {
+    color: white;
+    background: hsl(171, 100%, 41%);/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    color: white;
+    background: hsl(171, 100%, 41%); /* Gecko Browsers */
+}
+  
 .navbar-item{
     color: rgba(255,255,255,0.8) !important;
 }  
